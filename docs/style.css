@@ -230,3 +230,10 @@ footer{
 .center{
     text-align: center;
 }
+/* test for mobile version */
+@media only screen and (max-width: 600px) {
+    /* Styles for screens that are 600px wide or less */
+    body {
+        background-color: lightblue;
+    }
+}
